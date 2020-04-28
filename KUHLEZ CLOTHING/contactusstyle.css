@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background: url(imgs/bg1.jpg);
+}
+
+a:hover {
+    background-color: hotpink;
+  }
+
+.profile-img{
+    width: 40%;
+    height: 1000px;
+    float: right;
+}
+
+.profile-img img{
+    width: 100%;
+    height: 70%;
+    padding-top: 80px;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+nav img{
+    float: left;
+    width: 110px;
+    margin-left: 10px;
+}
+nav h1{
+    font-family: arial;
+    color: orangered;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul{
+    float: right;
+    font-weight: bold;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    display: block;
+    font-family: arial;
+    color: black;
+    font-size: 24px; 
+    padding: 22px 14px;
+    text-decoration: none;
+}     
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 6px 6px;
+}    
+
+nav ul li:hover ul{
+    display: block
+    ;
+}   
+
+nav ul li ul li a{
+   padding: 10px 12px;
+}  
+
+nav ul li ul li{
+    border-radius: 6px;
+}
+
+nav ul li ul li a:hover{
+   background-color: #f3f3f3;
+ }  
+
+.loginbox{
+    width: 380px;
+    height: 480px;
+    background: black;
+    color: #fff;
+    top: 20%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    
+} 
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    padding-top: -5px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: o;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;  
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+  border: none;  
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.loginbox a{
+text-decoration: none;
+font-size: 12px;
+line-height: 20px;
+color: darkgrey;
+}
+
+.loginbox a:hover{
+    color: #ffc107;
+}
+
+
+.getconnected{
+    padding-top: 600px;
+    word-spacing: 60px;
+    padding-left: 400px;  
+    
+ }

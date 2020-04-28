@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(204, 224, 226);
+}
+
+a:hover {
+    background-color: hotpink;
+  }
+
+.profile-img{
+    width: 40%;
+    height: 1000px;
+    float: right;
+}
+
+.profile-img img{
+    width: 100%;
+    height: 70%;
+    padding-top: 80px;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+nav img{
+    float: left;
+    width: 110px;
+    margin-left: 10px;
+}
+nav h1{
+    font-family: arial;
+    color: orangered;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul{
+    float: right;
+    font-weight: bold;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    display: block;
+    font-family: arial;
+    color: black;
+    font-size: 24px; 
+    padding: 22px 14px;
+    text-decoration: none;
+}     
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 6px 6px;
+}    
+
+nav ul li:hover ul{
+    display: block;
+}   
+
+nav ul li ul li a{
+   padding: 10px 12px;
+}  
+
+nav ul li ul li{
+    border-radius: 6px;
+}
+
+nav ul li ul li a:hover{
+   background-color: #f3f3f3;
+ }  
+
+.pictures2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    white-space: pre-wrap;
+    word-spacing: 3px;
+}
+
+.pic7 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic7 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic8 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic8 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic9 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic9 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic10 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic10 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic11 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic11 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic12 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic12 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+
+.pictures2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    white-space: pre-wrap;
+    word-spacing: 3px;
+}
+
+.pic7 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic7 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic8 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic8 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic9 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic9 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic10 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic10 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic11 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic11 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic12 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic12 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    white-space: pre-wrap;
+    word-spacing: 3px;
+}
+
+.pic1 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic1 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic2 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic2 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic3 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic3 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic4 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic4 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic5 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic5 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic6 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic6 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+
+.pictures2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    white-space: pre-wrap;
+    word-spacing: 3px;
+}
+
+.pic7 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic7 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic8 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic8 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic9 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic9 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic10 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic10 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic11 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic11 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic12 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic12 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pictures3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    white-space: pre-wrap;
+    word-spacing: 3px;
+}
+
+.pic13 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic13 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic14 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic14 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic15 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic15 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic16 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic16 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic17 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic17 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pic18 p{
+    font-weight: bold;
+    color: indigo;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.pic18 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}

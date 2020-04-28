@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(243, 203, 243);
+}
+
+a:hover {
+    background-color: hotpink;
+  }
+
+.profile-img{
+    width: 40%;
+    height: 1000px;
+    float: right;
+}
+
+.profile-img img{
+    width: 100%;
+    height: 70%;
+    padding-top: 80px;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+nav img{
+    float: left;
+    width: 110px;
+    margin-left: 10px;
+}
+nav h1{
+    font-family: arial;
+    color: orangered;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul{
+    float: right;
+    font-weight: bold;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    display: block;
+    font-family: arial;
+    color: black;
+    font-size: 24px; 
+    padding: 22px 14px;
+    text-decoration: none;
+}     
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 6px 6px;
+}    
+
+nav ul li:hover ul{
+    display: block;
+}   
+
+nav ul li ul li a{
+   padding: 10px 12px;
+}  
+
+nav ul li ul li{
+    border-radius: 6px;
+}
+
+nav ul li ul li a:hover{
+   background-color: #f3f3f3;
+ }  
+
+.text h2{
+    text-align: left;
+    margin-left: 50px;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 250px;
+    color: palevioletred
+} 
+
+.text2{
+    text-align: left;
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    color: rgb(80, 127, 255);
+}

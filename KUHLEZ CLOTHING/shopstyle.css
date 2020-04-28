@@ -1,0 +1,252 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+a:hover {
+    background-color: hotpink;
+  }
+
+.profile-img{
+    width: 40%;
+    height: 900px;
+    float: right;
+}
+
+.profile-img img{
+    width: 100%;
+    height: 70%;
+    padding-top: 80px;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+nav img{
+    float: left;
+    width: 110px;
+    margin-left: 10px;
+}
+nav h1{
+    font-family: arial;
+    color: orangered;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul{
+    float: right;
+    font-weight: bold;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    display: block;
+    font-family: arial;
+    color: black;
+    font-size: 24px; 
+    padding: 22px 14px;
+    text-decoration: none;
+}     
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 6px 6px;
+}    
+
+nav ul li:hover ul{
+    display: block;
+}   
+
+nav ul li ul li a{
+   padding: 10px 12px;
+}  
+
+nav ul li ul li{
+    border-radius: 6px;
+}
+
+nav ul li ul li a:hover{
+   background-color: #f3f3f3;
+ }  
+
+ .text h1{
+     color: rgb(255, 0, 98);
+     margin-left: 50px;
+     padding-top: 50px;
+
+ }
+
+ .container{
+     width: 100%;
+     height: 100vh;
+     position: relative;
+     overflow: hidden;
+     padding-top: 50px;
+ }
+
+ .img{
+     width: 50%;
+     height: 50%;
+     position: absolute;
+     animation: slide 20s infinite;
+     opacity: 0;
+     padding-top: 40px;
+     margin-left: 50px;
+ }
+
+ @keyframes slide{
+     10%{opacity: 3;}
+     45%{opacity: 0;}
+ }
+
+ img:nth-child(0){animation-delay: 0s;}
+ img:nth-child(1){animation-delay: 5s;}
+ img:nth-child(2){animation-delay: 10s;}
+ img:nth-child(3){animation-delay: 15s;}
+
+ .container2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    animation: slide 20s infinite;
+    opacity: 0;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+@keyframes slide{
+    10%{opacity: 3;}
+    45%{opacity: 0;}
+}
+
+img:nth-child(4){animation-delay: 0s;}
+img:nth-child(5){animation-delay: 5s;}
+img:nth-child(6){animation-delay: 10s;}
+img:nth-child(7){animation-delay: 15s;}
+
+.ladies h1{
+    margin-left: 100px;
+    color: coral;
+}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    animation: slide 20s infinite;
+    opacity: 0;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+@keyframes slide{
+    10%{opacity: 3;}
+    45%{opacity: 0;}
+}
+
+img:nth-child(4){animation-delay: 0s;}
+img:nth-child(5){animation-delay: 5s;}
+img:nth-child(6){animation-delay: 10s;}
+img:nth-child(7){animation-delay: 15s;}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    animation: slide 20s infinite;
+    opacity: 0;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+@keyframes slide{
+    10%{opacity: 3;}
+    45%{opacity: 0;}
+}
+
+.TEXT h1{
+    margin-left: 100px;
+    color: coral;
+}
+
+img:nth-child(4){animation-delay: 0s;}
+img:nth-child(5){animation-delay: 5s;}
+img:nth-child(6){animation-delay: 10s;}
+img:nth-child(7){animation-delay: 15s;}
+
+.container3{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    animation: slide 20s infinite;
+    opacity: 0;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+@keyframes slide{
+    10%{opacity: 3;}
+    45%{opacity: 0;}
+}
+
+img:nth-child(8){animation-delay: 0s;}
+img:nth-child(9){animation-delay: 5s;}
+img:nth-child(10){animation-delay: 10s;}
+img:nth-child(11){animation-delay: 15s;}
+
+.acc h1{
+    margin-left: 100px;
+    color: coral;
+}
+
